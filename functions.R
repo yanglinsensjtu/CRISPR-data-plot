@@ -70,8 +70,8 @@ NGS_plot <- function(nm = '', readcount = '', i = ''){
                    color = Gene,
                    shape = Gene),
                size = 3) +
-    labs(y = 'ABCG2 Sorted GFP- sgRNA reads', 
-         x = 'ABCG2 sgRNA reads', 
+    labs(y = ' Sorted GFP- sgRNA reads', 
+         x = ' sgRNA reads', 
          title = 'Enriched gene by FACs sorted'
     ) +
     scale_color_manual(name = 'sgRNAs', 
